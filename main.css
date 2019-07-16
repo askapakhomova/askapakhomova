@@ -154,7 +154,7 @@ margin-bottom: 33px;
   background-image: url('./images/feed_icon_black.png'); 
   }
   .menu__link--wallet--icon:hover:before {
-    background-image: url('./images/feed_icon_black.png'); 
+    background-image: url('./images/wallet_icon_black.png'); 
     }
 .menu__link--main--icon {
   color: black;
@@ -283,10 +283,11 @@ margin-bottom: 10px;
 }
 .pagination {
   text-align: center;
+  font: 14px/1.42 'Roboto', Helvetica, sans-serif;
 }
 .pagination__display {
   opacity: 0.3;
-  font-family: Roboto;
+  /*font-family: Roboto;*/
   font-size: 14px;
   font-weight: 300;
   margin-right: 10px;
@@ -298,7 +299,7 @@ margin-bottom: 10px;
   vertical-align: middle; 
 }
 .pagination__previous, .pagination__next {
-  font-family: Roboto;
+  /*font-family: Roboto;*/
   font-weight: 300;
   text-decoration: none;
   display: inline-block; 
@@ -310,7 +311,7 @@ margin-bottom: 10px;
 }
 .pagination__pages-link {
 color: #221f1f;
-font-family: Roboto;
+/*font-family: Roboto;*/
 font-size: 14px;
 font-weight: 700;
 text-decoration: none;
@@ -346,6 +347,7 @@ p.footer__text {
   font-weight: 300;
   top: 14px;
 }
+
 .footer__logo {
   position: absolute;
   left: 480px;
