@@ -306,9 +306,6 @@ margin-bottom: 10px;
   opacity: 0.3;
   margin-right: 10px;
 }
-.pagination__pages-link--active {
-background-color: #27273e;
-}
 .pagination__pages-link {
 text-decoration: none;
 color: #221f1f;
@@ -319,12 +316,14 @@ line-height: 25px;
 border-radius: 3px; 
 display: inline-block; 
 }
-.pagination__pages-link--active {
-  color: #fff;
-}
 .pagination__pages-list {
   display: inline-block; 
 }
+.pagination__pages-link--active {
+  background-color: #27273e;
+  color: #fff;
+  }
+
 .pagination__pages-item {
   display: inline-block; 
 }  
