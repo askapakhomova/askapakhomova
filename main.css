@@ -287,8 +287,6 @@ margin-bottom: 10px;
 }
 .pagination__display {
   opacity: 0.3;
-  /*font-family: Roboto;*/
-  font-size: 14px;
   font-weight: 300;
   margin-right: 10px;
   display: inline-block;
@@ -299,7 +297,6 @@ margin-bottom: 10px;
   vertical-align: middle; 
 }
 .pagination__previous, .pagination__next {
-  /*font-family: Roboto;*/
   font-weight: 300;
   text-decoration: none;
   display: inline-block; 
@@ -309,10 +306,8 @@ margin-bottom: 10px;
   opacity: 0.3;
   margin-right: 10px;
 }
-.pagination__pages-link {
+.pagination__pages-link--active {
 color: #221f1f;
-/*font-family: Roboto;*/
-font-size: 14px;
 font-weight: 700;
 text-decoration: none;
 width: 25px;
