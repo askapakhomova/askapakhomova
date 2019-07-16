@@ -330,19 +330,22 @@ display: inline-block;
 .footer {
   height: 77px;
   background:#27273e; 
+  color: #fff;
 }
 .footer__container {
   position: relative;
   background:#27273e;
+  font: 14px/1.42 'Gotham Pro', Helvetica, sans-serif;
 }
 p.footer__text {
   position: absolute;
-  color: #fff;
-  font-size: 14px;
   font-weight: 300;
   top: 14px;
 }
-
+a.footer__text {
+  color:#fff;
+  font-weight: 700;
+}
 .footer__logo {
   position: absolute;
   left: 480px;
@@ -353,12 +356,12 @@ p.footer__text {
   top: 14px;
 }
 .social-networks__text {
-  font-size: 14px;
-  padding-bottom: 6px;
+ font-weight: 700;
+ padding-bottom: 6px;
 }
 .social-networks__item {
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 14px;
 }
 .social-networks__link {
   display: block;
