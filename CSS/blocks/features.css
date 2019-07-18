@@ -1,0 +1,77 @@
+.features {
+  margin-bottom: 40px;
+}
+
+.features__main-title {
+  margin-top: auto;
+  margin-bottom: 75px;
+  font-size: 49px;
+  font-family: 'Gotham Pro', Helvetica, Arial, sans-serif;
+}
+
+.features__item {
+  display: inline-block;
+  width: 207px;
+  text-align: center;
+  margin-right: 68px;
+}
+
+.features__item:last-child {
+  margin-right: 0px;
+}
+
+.features__title {
+  color: #000;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.features__desc {
+  color: #000;
+  font-family: 'Gotham Pro', Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.features__pic {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 36px;
+  background: no-repeat center center #27273e;
+}
+
+.features__pic--flower {
+
+  background-image: url('../../images/flower.png');
+}
+
+.features__pic--star {
+  background-image: url('../../images/favorite-star.png');
+}
+
+.features__pic--paint {
+  background-image: url('../../images/painter-palette.png');
+}
+
+.features__list {
+  text-align: left;
+}
+
+.features__list-item {
+  font-family: 'Gotham Pro', Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.features__list-item:before {
+  content: '•';
+  display: inline-block;
+  color: #ec1e79;
+  margin-right: 30px;
+}
