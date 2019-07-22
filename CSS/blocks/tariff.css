@@ -1,0 +1,45 @@
+.tariff__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+.tariff__item {
+  width: 238px;
+}
+.tariff__pic {
+  position: relative;
+  display: block;
+}
+
+.tariff__pic:before {
+content: "";
+position: absolute;
+display: block;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background: url('../../images/overlay_1.png');
+}
+.tariff__pic-elem {
+max-width: 100%;
+}
+.tariff__title-text {
+position: absolute;
+color: #5dd1f8;
+font-family: "Gotham Pro";
+font-size: 24px;
+font-weight: 700;
+text-transform: uppercase;
+text-align: center;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+.colortext {
+  color: #ec1e79;
+}
+.tariff__deck {
+  text-align: center;
+}

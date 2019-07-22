@@ -1,4 +1,4 @@
-@import url('./layout/font.css');
+@import url('./layout/fonts.css');
 @import url('./layout/normalize.css');
 @import url('./layout/base.css');
 
@@ -12,6 +12,7 @@
 @import url('./blocks/reviews.css');
 @import url('./blocks/breadcrumbs.css');
 @import url('./blocks/features.css');
+@import url('./blocks/tariff.css');
 @import url('./blocks/news.css');
 @import url('./blocks/pagination.css');
 @import url('./blocks/information.css');
