@@ -1,19 +1,21 @@
 .footer {
-  height: 77px;
   background: #27273e;
   color: #fff;
 }
 
 .footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   position: relative;
   background: #27273e;
   font: 14px/1.42 'Gotham Pro', Helvetica, sans-serif;
+  padding: 13px 0;
 }
 
 p.footer__text {
-  position: absolute;
   font-weight: 300;
-  top: 14px;
+  width: 264px;
 }
 
 a.footer__text {
@@ -21,56 +23,3 @@ a.footer__text {
   font-weight: 700;
 }
 
-.footer__logo {
-  position: absolute;
-  left: 480px;
-}
-
-.social-networks {
-  position: absolute;
-  right: 0;
-  top: 14px;
-}
-
-.social-networks__text {
-  font-weight: 700;
-  padding-bottom: 6px;
-}
-
-.social-networks__item {
-  display: inline-block;
-  margin-right: 14px;
-}
-
-.social-networks__link {
-  display: block;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background: center center no-repeat;
-  background-color: #d4d4d8;
-}
-
-.social-networks__link--vk {
-  background-image: url('../../images/vk.png');
-}
-
-.social-networks__link--fb {
-  background-image: url('../../images/fb.png');
-}
-
-.social-networks__link--google {
-  background-image: url('../../images/google.png');
-}
-
-.social-networks__link--twitter {
-  background-image: url('../../images/twitter.png');
-}
-
-.social-networks__link--email {
-  background-image: url('../../images/mail.png');
-}
-
-.social-networks__link:hover {
-  background-color: #ec1e79;
-}

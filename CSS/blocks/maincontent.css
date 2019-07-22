@@ -1,3 +1,8 @@
 .maincontent {
   margin-bottom: 70px;
 }
+
+.maincontent__container {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,4 +1,6 @@
 .pagination {
+  display: flex;
+  justify-content: center;
   text-align: center;
   font: 14px/1.42 'Roboto', Helvetica, sans-serif;
 }
@@ -7,21 +9,19 @@
   opacity: 0.3;
   font-weight: 300;
   margin-right: 10px;
-  display: inline-block;
-  vertical-align: middle;
+ display: flex;
+ align-items: center;
 }
 
 .pagination__controls {
-  display: inline-block;
-  vertical-align: middle;
+  display: flex;
+  align-items: center;
 }
 
 .pagination__previous,
 .pagination__next {
   font-weight: 300;
   text-decoration: none;
-  display: inline-block;
-  vertical-align: middle;
 }
 
 .pagination__previous {
@@ -41,14 +41,16 @@
 }
 
 .pagination__pages-list {
-  display: inline-block;
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
 }
 
 .pagination__pages-link--active {
   background-color: #27273e;
   color: #fff;
 }
-
-.pagination__pages-item {
-  display: inline-block;
+.pagination__pages-link--active1{
+  background-color: #27273e;
+  color: #ec1e79;
 }

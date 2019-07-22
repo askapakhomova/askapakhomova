@@ -1,10 +1,12 @@
 .sidebar {
-  display: inline-block;
-  vertical-align: top;
-  margin-right: 74px;
+  width: 20%;
   padding-top: 17px;
 }
-
+.menu__list {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: column wrap;
+}
 .menu__item {
   margin-bottom: 33px;
 }
@@ -20,7 +22,6 @@
   text-transform: uppercase;
   text-decoration: none;
   color: black;
-  display: block;
 }
 
 .menu__link:before {

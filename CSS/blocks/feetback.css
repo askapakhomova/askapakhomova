@@ -1,0 +1,131 @@
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 200px;
+  margin-bottom: 50px;
+}
+
+.form__feedback {
+  display: flex;
+  flex-flow: column wrap;
+  background: #f5f5f5;
+  width: 700px;
+  padding: 30px 8%;
+}
+
+.form__feetback-title {
+  text-align: left;
+  margin-bottom: 30px;
+  font-size: 49px;
+  font-weight: 700;
+}
+
+.form__row {
+  display: flex;
+  margin-bottom: 18px;
+  justify-content: space-between;
+}
+
+.feedback-title {
+  color: #221f1f;
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 8px;
+  margin-top: 0;
+}
+
+.feetback__text-input {
+  margin-right: 30px;
+  flex: 1;
+}
+
+.feetback__text-input:last-child {
+  margin-right: 0;
+}
+
+.feetback__input {
+  padding: 15px 9px;
+  border: none;
+  background: #fff;
+  width: 100%;
+  box-sizing: border-box;
+  outline: none;
+  border: 1px solid transparent;
+}
+
+.feetback__textarea {
+  padding: 9px 9px 55px 4px;
+  border: none;
+  background: #fff;
+  width: 100%;
+  box-sizing: border-box;
+  outline: none;
+  border: 1px solid transparent;
+  resize: vertical;
+  height: 90px;
+}
+
+.feetback__input:focus {
+  border-color: #ec1e79;
+}
+
+.feetback__textarea:focus {
+  border-color: #ec1e79;
+}
+
+.feetback__radiobuttons {
+  display: flex;
+}
+
+.feetback__radio {
+  display: flex;
+  margin-right: 10px;
+}
+.feetback__radiobutton {
+-webkit-appearance: none;
+}
+
+.feetback__radiobutton-fake {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #c9c9c9;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.feetback__radiobutton-fake:before {
+  content: "";
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.feetback__radiobutton:checked+.feetback__radiobutton-fake {
+  border: 1px solid #ec1e79;
+}
+.feetback__radiobutton:checked+.feetback__radiobutton-fake:before {
+  background-color: #ec1e79;
+}
+.feetback__title--margin {
+  margin-left: 3px;
+}
+
+.feetback__right {
+  display: flex;
+  align-items: center;
+}
+.feetback__submit {
+  background-color: #27273e;
+  width: 139px;
+height: 45px;
+color: #fff;
+font-size: 12px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 2.4px;
+border-radius: 5%;
+}
+
