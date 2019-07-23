@@ -1,11 +1,20 @@
+h1.tariff__title-h1 {
+  color: #221f1f;
+  font-size: 49px;
+  font-weight: 700;
+}
 .tariff__list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  margin-bottom: 32px;
+ /* justify-content: space-around;*/
   
 }
 .tariff__item {
   width: 250px;
+  margin-right: 33px;
+  margin-bottom: 38px;
+  display: inline-block;
 }
 .tariff__pic {
   position: relative;
@@ -25,7 +34,6 @@ background: url('../../images/overlay_1.png') no-repeat no-repeat;
 .tariff__title-text {
 position: absolute;
 color: #5dd1f8;
-font-family: "Gotham Pro";
 font-size: 24px;
 font-weight: 700;
 text-transform: uppercase;
@@ -37,15 +45,18 @@ transform: translate(-50%, -50%);
 .colortext {
   color: #ec1e79;
 }
+.tariff__title-text--size {
+  width: 173px;
+}
 .tariff__deck {
   text-align: center;
 }
 .tariff_price {
-font-size: 14px;
+font-size: 18px;
 font-weight: 700;
 }
 .tariff__text {
-  color: #221f1f;
+color: #000;
 font-size: 14px;
 font-weight: 300;
 }

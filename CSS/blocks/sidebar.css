@@ -35,7 +35,7 @@
 .menu__link:hover {
   color: black;
 }
-
+/* Главная*/
 .menu__link--main--icon--active:before {
   background-image: url(../../images/main_icon.png);
 }
@@ -68,4 +68,66 @@
 
 .menu__link--feed--icon {
   color: #ec1e79;
+}
+
+/* feetback */
+
+.menu__link--main--icon:before {
+  background-image: url(../../images/main_icon_pink.png);
+}
+
+.menu__link--feed--icon--active:before {
+  background-image: url(../../images/feed_icon_black.png);
+}
+
+.menu__link--wallet--icon:before {
+  background-image: url(../../images/wallet_icon.png);
+  text-decoration-color: #ec1e79;
+}
+.menu__link--main--icon:hover:before {
+  background-image: url('../../images/main_icon.png');
+}
+.menu__link--feed--icon:hover:before {
+  background-image: url('../../images/feed_icon_black.png');
+}
+
+.menu__link--wallet--icon:hover:before {
+  background-image: url('../../images/wallet_icon_black.png');
+}
+
+.menu__link--main--icon {
+  color:  #ec1e79;
+  text-decoration-line: none;
+}
+
+.menu__link--wallet--icon {
+  color: #ec1e79;
+}
+
+.menu__link--feed--icon {
+  color:  #ec1e79;
+}
+
+/* Тарифы */
+.menu__link--main--icon:before {
+  background-image: url(../../images/main_icon_pink.png);
+}
+
+.menu__link--feed--icon:before {
+  background-image: url(../../images/feed_icon.png);
+}
+
+.menu__link--wallet--icon--active:before {
+  background-image: url(../../images/wallet_icon_black.png);
+  text-decoration-color: #ec1e79;
+}
+.menu__link--main--icon:hover:before {
+  background-image: url('../../images/main_icon.png');
+}
+.menu__link--feed--icon:hover:before {
+  background-image: url('../../images/feed_icon_black.png');
+}
+
+.menu__link--wallet--icon:hover:before {
+  background-image: url('../../images/wallet_icon_black.png');
 }
