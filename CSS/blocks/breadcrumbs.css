@@ -20,7 +20,7 @@
   content: "/";
   color: #221f1f;
   opacity: .8;
-  padding-left: 3px;
+  padding-left: 6px;
 }
 .breadcrumbs__item:last-child:after {
   display: none;

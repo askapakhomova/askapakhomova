@@ -5,7 +5,7 @@
   
 }
 .tariff__item {
-  width: 238px;
+  width: 250px;
 }
 .tariff__pic {
   position: relative;
@@ -20,10 +20,7 @@ top: 0;
 left: 0;
 right: 0;
 bottom: 0;
-background: url('../../images/overlay_1.png');
-}
-.tariff__pic-elem {
-max-width: 100%;
+background: url('../../images/overlay_1.png') no-repeat no-repeat;
 }
 .tariff__title-text {
 position: absolute;
@@ -42,4 +39,13 @@ transform: translate(-50%, -50%);
 }
 .tariff__deck {
   text-align: center;
+}
+.tariff_price {
+font-size: 14px;
+font-weight: 700;
+}
+.tariff__text {
+  color: #221f1f;
+font-size: 14px;
+font-weight: 300;
 }
