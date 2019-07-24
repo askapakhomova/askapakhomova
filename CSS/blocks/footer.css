@@ -15,7 +15,7 @@
 
 p.footer__text {
   font-weight: 300;
-  width: 264px;
+  width: 265px;
 }
 
 a.footer__text {
@@ -23,3 +23,9 @@ a.footer__text {
   font-weight: 700;
 }
 
+.footer__container--center {
+  justify-content: center;
+}
+.footer__container--right {
+  justify-content:flex-end
+}

@@ -1,4 +1,7 @@
 .banner__picture {
-  max-width: 100%;
+  max-width: 105%;
   display: block;
+  padding-top: 8px;
+  margin-left: -19px;
+
 }
