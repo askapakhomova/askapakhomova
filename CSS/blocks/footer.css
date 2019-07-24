@@ -12,7 +12,17 @@
   font: 14px/1.42 'Gotham Pro', Helvetica, sans-serif;
   padding: 13px 0;
 }
+.footer__col {
+  display: flex;
+  flex: 1;
+}
+.footer__col--center {
+  justify-content: center;
+}
 
+.footer__col--right {
+  justify-content: flex-end;
+}
 p.footer__text {
   font-weight: 300;
   width: 265px;
@@ -21,11 +31,4 @@ p.footer__text {
 a.footer__text {
   color: #fff;
   font-weight: 700;
-}
-
-.footer__container--center {
-  justify-content: center;
-}
-.footer__container--right {
-  justify-content:flex-end
 }

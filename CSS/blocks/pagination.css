@@ -8,9 +8,7 @@
 .pagination__display {
   opacity: 0.3;
   font-weight: 300;
-  margin-right: 10px;
- display: flex;
- align-items: center;
+  margin-right: 24px;
 }
 
 .pagination__controls {
@@ -22,13 +20,16 @@
 .pagination__next {
   font-weight: 300;
   text-decoration: none;
+
 }
 
 .pagination__previous {
   opacity: 0.3;
   margin-right: 10px;
 }
-
+.pagination__next {
+margin-left: 10px;
+}
 .pagination__pages-link {
   text-decoration: none;
   color: #221f1f;
