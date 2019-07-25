@@ -1,8 +1,8 @@
 .breadcrumbs {
     display: flex;
     margin-right: 74px;
-    padding-top: 17px;
-    margin-bottom: 26px;
+    padding-top: 3px;
+    margin-bottom: 31px;
   }
 
   .breadcrumbs__list {

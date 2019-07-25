@@ -6,7 +6,9 @@
 
 .social-networks__types {
   display: flex;
-  justify-content: space-between;
+}
+.social-networks__item {
+margin-right: 11px;
 }
 
 .social-networks__link {

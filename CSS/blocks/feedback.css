@@ -14,7 +14,7 @@
   padding: 30px 8%;
 }
 
-.form__feetback-title {
+.form__feedback-title {
   text-align: left;
   margin-bottom: 30px;
   font-size: 49px;
@@ -35,16 +35,16 @@
   margin-top: 0;
 }
 
-.feetback__text-input {
+.feedback__text-input {
   margin-right: 30px;
   flex: 1;
 }
 
-.feetback__text-input:last-child {
+.feedback__text-input:last-child {
   margin-right: 0;
 }
 
-.feetback__input {
+.feedback__input {
   padding: 15px 9px;
   border: none;
   background: #fff;
@@ -54,7 +54,7 @@
   border: 1px solid transparent;
 }
 
-.feetback__textarea {
+.feedback__textarea {
   padding: 9px 9px 55px 4px;
   border: none;
   background: #fff;
@@ -66,27 +66,27 @@
   height: 90px;
 }
 
-.feetback__input:focus {
+.feedback__input:focus {
   border-color: #ec1e79;
 }
 
-.feetback__textarea:focus {
+.feedback__textarea:focus {
   border-color: #ec1e79;
 }
 
-.feetback__radiobuttons {
+.feedback__radiobuttons {
   display: flex;
 }
 
-.feetback__radio {
+.feedback__radio {
   display: flex;
   margin-right: 10px;
 }
-.feetback__radiobutton {
+.feedback__radiobutton {
 -webkit-appearance: none;
 }
 
-.feetback__radiobutton-fake {
+.feedback__radiobutton-fake {
   width: 20px;
   height: 20px;
   border: 1px solid #c9c9c9;
@@ -95,7 +95,7 @@
   justify-content: center;
   align-items: center;
 }
-.feetback__radiobutton-fake:before {
+.feedback__radiobutton-fake:before {
   content: "";
   display: block;
   width: 8px;
@@ -103,21 +103,21 @@
   border-radius: 50%;
 }
 
-.feetback__radiobutton:checked+.feetback__radiobutton-fake {
+.feedback__radiobutton:checked+.feedback__radiobutton-fake {
   border: 1px solid #ec1e79;
 }
-.feetback__radiobutton:checked+.feetback__radiobutton-fake:before {
+.feedback__radiobutton:checked+.feedback__radiobutton-fake:before {
   background-color: #ec1e79;
 }
-.feetback__title--margin {
+.feedback__title--margin {
   margin-left: 3px;
 }
 
-.feetback__right {
+.feedback__right {
   display: flex;
   align-items: center;
 }
-.feetback__submit {
+.feedback__submit {
   background-color: #27273e;
   width: 139px;
 height: 45px;

@@ -1,0 +1,12 @@
+.header-tariff {
+  background: #27273e;
+  margin-bottom: 39px;
+  padding: 11px 0px;
+}
+
+.header-tariff__container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

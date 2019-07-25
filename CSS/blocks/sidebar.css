@@ -131,3 +131,8 @@
 .menu__link--wallet--icon:hover:before {
   background-image: url('../../images/wallet_icon_black.png');
 }
+
+.sidebar-tariff__sidebar {
+  width: 19%;
+  padding-top: 4px;
+}
