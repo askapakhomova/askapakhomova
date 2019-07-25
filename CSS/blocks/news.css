@@ -1,5 +1,5 @@
 .news {
-  margin-bottom: 43px;
+  margin-bottom: 18gitpx;
 }
 .section-title {
   color: #221f1f;
@@ -7,6 +7,12 @@
   font-weight: 700;
   margin-bottom: 57px;
 }
+.news__items {
+ display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 17px;
+}
+
 .news__item {
 display: flex;
 margin-bottom: 22px;
@@ -56,5 +62,5 @@ overflow: hidden;
   font-size: 18px;
   font-weight: 300;
   color:  #656464;
-  padding-bottom: 19px;
+  padding-bottom: 24px;
 }

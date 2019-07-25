@@ -9,8 +9,10 @@
 @import url('./blocks/banner.css');
 @import url('./blocks/maincontent.css');
 @import url('./blocks/maincontent-tariff.css');
+@import url('./blocks/maincontent-reviews.css');
 @import url('./blocks/page.css');
 @import url('./blocks/page-tariff.css');
+@import url('./blocks/page-reviews.css');
 @import url('./blocks/sidebar.css');
 @import url('./blocks/reviews.css');
 @import url('./blocks/breadcrumbs.css');
