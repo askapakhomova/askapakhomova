@@ -1,22 +1,29 @@
 .information {
   background-color: #27273e;
-  margin-top: 60px;
+  margin-top: 54px;
 }
 .information__container {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 1043px;
-  height: 174px;
-  background-image: url('../../images/pattern.png');
+  position: relative;
   margin-bottom: 57px;
 }
+.information__picture {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
 .information__text {
-  margin-left: 102px;
-  width: 600px;
   color: #ffffff;
+  width: 650px;
   font-size: 18px;
   font-weight: 300;
+  line-height: 30px;
+  position: absolute;
+  top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
 }
 a.information__text-link {
   color: #ec1e79;

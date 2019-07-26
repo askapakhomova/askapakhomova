@@ -1,0 +1,8 @@
+.maincontent-reviews {
+  margin-bottom: 52px;
+}
+
+.maincontent-reviews__container {
+  display: flex;
+  justify-content: space-between;
+}

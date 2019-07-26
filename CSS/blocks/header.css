@@ -10,3 +10,15 @@
   justify-content: space-between;
   align-items: center;
 }
+.header-reviews{
+  background: #27273e;
+  margin-bottom: 36px;
+  padding: 11px 0px;
+}
+
+.header-reviews__container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
