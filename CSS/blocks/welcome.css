@@ -1,0 +1,21 @@
+.welcome__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.welcome__logo {
+margin-bottom: 29px;
+display: block;
+width: 100%;
+}
+
+.welcome__link {
+border: 3px solid currentColor;
+padding: 17px 23px 16px 22px;
+color: #ec1e79;
+font-size: 12px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 1.2px;
+text-decoration: none;
+}
