@@ -1,45 +1,91 @@
-
 .social-networks__text {
+  color: #221f1f;
+  font-size: 14px;
   font-weight: 700;
-  margin-bottom: 6px;
+  margin-bottom: 7px;
+  text-align: center;
 }
 
 .social-networks__types {
   display: flex;
+  justify-content: center;
+  margin-left: 15px;
 }
+
 .social-networks__item {
-margin-right: 11px;
+  margin-right: 11px;
 }
 
 .social-networks__link {
+  position: relative;
   display: block;
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background: center center no-repeat;
   background-color: #d4d4d8;
 }
 
-.social-networks__link--vk {
-  background-image: url('../../images/vk.png');
+.social-networks__link--vk:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 12px;
+  height: 7px;
+  background: url(../../images/social_networks.png) -89px -5px;
 }
 
-.social-networks__link--fb {
-  background-image: url('../../images/fb.png');
+.social-networks__link--fb:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 6px;
+  height: 13px;
+  background: url(../../images/social_networks.png) -5px -5px;
 }
 
-.social-networks__link--google {
-  background-image: url('../../images/google.png');
+.social-networks__link--google:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 15px;
+  height: 9px;
+  background: url(../../images/social_networks.png) -21px -5px;
 }
 
-.social-networks__link--twitter {
-  background-image: url('../../images/twitter.png');
+.social-networks__link--twitter:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 11px;
+  height: 9px;
+  background: url(../../images/social_networks.png) -68px -5px;
 }
 
-.social-networks__link--email {
-  background-image: url('../../images/mail.png');
+.social-networks__link--email:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 12px;
+  height: 9px;
+  background: url(../../images/social_networks.png) -46px -5px;
 }
 
 .social-networks__link:hover {
   background-color: #ec1e79;
+  transition: .3s;
 }

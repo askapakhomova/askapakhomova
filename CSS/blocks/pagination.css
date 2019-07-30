@@ -1,8 +1,9 @@
-.pagination {
+.pagination--about {
   display: flex;
   justify-content: center;
   text-align: center;
   font: 14px/1.42 'Roboto', Helvetica, sans-serif;
+  margin-right: 142px;
 }
 
 .pagination__display {

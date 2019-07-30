@@ -1,0 +1,59 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-feed_icon {
+    width: 20px;
+    height: 18px;
+    background-position: -5px -5px;
+}
+
+.sprite-feed_icon-_1_ {
+    width: 20px;
+    height: 18px;
+    background-position: -35px -5px;
+}
+
+.sprite-feed_icon_black {
+    width: 20px;
+    height: 18px;
+    background-position: -65px -5px;
+}
+
+.sprite-main_icon {
+    width: 17px;
+    height: 15px;
+    background-position: -95px -5px;
+}
+
+.sprite-main_icon_pink {
+    width: 17px;
+    height: 15px;
+    background-position: -122px -5px;
+}
+
+.sprite-triangle_icon_pink {
+    width: 17px;
+    height: 15px;
+    background-position: -149px -5px;
+}
+
+.sprite-wallet_icon {
+    width: 19px;
+    height: 16px;
+    background-position: -176px -5px;
+}
+
+.sprite-wallet_icon-2 {
+    width: 19px;
+    height: 16px;
+    background-position: -205px -5px;
+}
+
+.sprite-wallet_icon_black {
+    width: 19px;
+    height: 16px;
+    background-position: -234px -5px;
+}

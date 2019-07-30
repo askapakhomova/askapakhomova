@@ -3,3 +3,8 @@
   width: 95%;
   vertical-align: top;
 }
+.page--about {
+  display: inline-block;
+  width: 74%;
+  vertical-align: top;
+}
