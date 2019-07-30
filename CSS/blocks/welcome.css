@@ -6,8 +6,10 @@
   color: #ec1e79;
   transition: .3s;
 }
-.welcome__content:hover {
-  color: #ccc;
+.welcome__content:hover .welcome__link{
+  background: #ec1e79;
+  border: none;
+  color: #fff;
   }
 .welcome__logo {
 margin-bottom: 29px;
