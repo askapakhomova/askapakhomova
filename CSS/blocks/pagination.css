@@ -71,6 +71,7 @@
   line-height: 21px;
   margin-right: 96px;
   margin-bottom: 57px;
+  padding-top: 4px;
 }
 
 .pagination__pages-link--reviews--active {
