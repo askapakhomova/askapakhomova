@@ -9,6 +9,7 @@
   font-weight: 700;
   line-height: 38px;
   margin-bottom: 44px;
+  margin-left: -3px;
 }
 .reviews__item {
   display: flex;
@@ -52,7 +53,6 @@
     }
   .reviews__date {
     color: #656464;
-    font-family: "Gotham Pro Light";
     font-size: 14px;
     font-weight: 300;
     line-height: 21px;
@@ -60,6 +60,7 @@
   }
   .reviews__name {
     font-weight: 700;
+    font-size: 18px;
     line-height: 21px;
     margin-bottom: 10px;
   }

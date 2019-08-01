@@ -18,6 +18,6 @@ p.footer__text {
 }
 
 a.footer__text {
-  color: #fff;
+  color: currentColor;
   font-weight: 700;
 }

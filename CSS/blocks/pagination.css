@@ -29,9 +29,11 @@
   opacity: 0.3;
   margin-right: 10px;
 }
+
 .pagination__next {
-margin-left: 10px;
+  margin-left: 10px;
 }
+
 .pagination__pages-link {
   text-decoration: none;
   color: #221f1f;
@@ -42,7 +44,9 @@ margin-left: 10px;
   border-radius: 3px;
   display: inline-block;
 }
-
+.pagination__pages-link:hover {
+  color: #ec1e79;
+}
 .pagination__pages-list {
   display: flex;
   align-content: center;
@@ -53,7 +57,23 @@ margin-left: 10px;
   background-color: #27273e;
   color: #fff;
 }
-.pagination-reviews__pages-link--active{
+
+/* reviews */
+
+.pagination--reviews {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #221f1f;
+  font-family: "Gotham Pro";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  margin-right: 96px;
+  margin-bottom: 57px;
+}
+
+.pagination__pages-link--reviews--active {
   background-color: #27273e;
   color: #ec1e79;
 }
