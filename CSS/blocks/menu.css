@@ -1,3 +1,13 @@
+.menu {
+  padding-top: 5px;
+  padding-left: 7px;
+  margin-bottom: 7px;
+}
+.menu__reviews {
+  padding-top: 19px;
+  padding-left: 5px;
+  margin-bottom: 10px;
+}
 .menu__list {
   display: flex;
 }
@@ -60,6 +70,132 @@
 color: #ec1e79;
 }
 
+/* tariffs */
+.menu-tariffs__list {
+  display: flex;
+}
+.menu-tariffs__item {
+  margin: 0px 35px 23px 62px;
+}
+.menu-tariffs__item:first-child {
+  margin: 0px 35px 23px 0px;
+}
+.menu__link-tariffs {
+  font: 13px/1.42 'Open Sans', Helvetica, sans-serif;
+  letter-spacing: 1.4px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  color:#ec1e79;
+}
+.menu__link-tariffs:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  background: no-repeat center center;
+  background: url(../../images/spritesheet\ .png);
+  margin-right: 13px;
+  
+}
+
+.menu__link-tariffs--main--icon:before {
+  width: 17px;
+  height: 15px;
+  background-position: -122px -5px;
+}
+
+.menu__link-tariffs--feed--icon:before {
+  width: 20px;
+  height: 18px;
+  background-position: -5px -5px;
+}
+.menu__link-tariffs--wallet--icon--active:before {
+  width: 19px;
+  height: 16px;
+  background-position: -234px -5px;
+}
+.menu__link-tariffs--wallet--icon--active {
+  color: #000;
+}
 
 
+/*hover-tariffs*/
+.menu__link-tariffs--feed--icon:hover:before {
+  width: 20px;
+  height: 18px;
+  background-position: -65px -5px;
+}
+.menu__link-tariffs--main--icon:hover:before {
+  width: 17px;
+  height: 15px;
+  background-position: -95px -5px;
+}
 
+.menu__link-tariffs--feed--icon:hover, .menu__link-tariffs--main--icon:hover {
+color: #000;
+}
+
+/* reviews */
+.menu-reviews__list {
+  display: flex;
+}
+.menu-reviews__item {
+  margin: 0px 35px 23px 62px;
+}
+.menu-reviews__item:first-child {
+  margin: 0px 35px 23px 0px;
+}
+.menu__link-reviews {
+  font: 13px/1.42 'Open Sans', Helvetica, sans-serif;
+  letter-spacing: 1.4px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  color:#ec1e79;
+}
+.menu__link-reviews:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  background: no-repeat center center;
+  background: url(../../images/spritesheet\ .png);
+  margin-right: 13px;
+  
+}
+
+.menu__link-reviews--main--icon:before {
+  width: 17px;
+  height: 15px;
+  background-position: -122px -5px;
+}
+
+.menu__link-reviews--feed--icon:before {
+  width: 20px;
+  height: 18px;
+  background-position: -5px -5px;
+}
+.menu__link-reviews--wallet--icon--active:before {
+  width: 19px;
+  height: 16px;
+  background-position: -234px -5px;
+}
+.menu__link-reviews--wallet--icon--active {
+  color: #000;
+}
+
+
+/*hover-reviews*/
+.menu__link-reviews--feed--icon:hover:before {
+  width: 20px;
+  height: 18px;
+  background-position: -65px -5px;
+}
+.menu__link-reviews--main--icon:hover:before {
+  width: 17px;
+  height: 15px;
+  background-position: -95px -5px;
+}
+
+.menu__link-reviews--feed--icon:hover, .menu__link-reviews--main--icon:hover {
+color: #000;
+}

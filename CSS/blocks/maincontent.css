@@ -1,8 +1,12 @@
 .maincontent {
-  margin-bottom: 59px;
+  margin-bottom: 58px;
 }
 
 .maincontent__container {
   display: flex;
   justify-content: space-between;
+}
+
+.maincontent--teriff {
+margin-bottom: 8px;
 }

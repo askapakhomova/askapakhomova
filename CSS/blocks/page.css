@@ -3,8 +3,19 @@
   width: 95%;
   vertical-align: top;
 }
-.page--about {
+.page__about {
   display: inline-block;
   width: 74%;
+  vertical-align: top;
+}
+.page__tariff {
+  display: inline-block;
+  width: 75%;
+  vertical-align: top;
+  margin-bottom: -23px;
+}
+.page__reviews {
+  display: inline-block;
+  width: 75%;
   vertical-align: top;
 }
