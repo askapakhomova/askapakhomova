@@ -1,21 +1,18 @@
 .page {
-  display: inline-block;
+
   width: 95%;
   vertical-align: top;
 }
 .page__about {
-  display: inline-block;
   width: 74%;
   vertical-align: top;
 }
 .page__tariff {
-  display: inline-block;
   width: 75%;
   vertical-align: top;
-  margin-bottom: -23px;
+  margin-bottom: -26px;
 }
 .page__reviews {
-  display: inline-block;
   width: 75%;
   vertical-align: top;
 }
