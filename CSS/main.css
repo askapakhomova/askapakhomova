@@ -11,17 +11,14 @@
 @import url('./blocks/banner.css');
 @import url('./blocks/maincontent.css');
 @import url('./blocks/page.css');
-@import url('./blocks/page-reviews.css');
 @import url('./blocks/sidebar.css');
 @import url('./blocks/reviews.css');
 @import url('./blocks/breadcrumbs.css');
-@import url('./blocks/breadcrumbs-reviews.css');
 @import url('./blocks/partners.css');
 @import url('./blocks/features.css');
 @import url('./blocks/tariff.css');
 @import url('./blocks/news.css');
 @import url('./blocks/pagination.css');
-@import url('./blocks/pagination-reviews.css');
 @import url('./blocks/information.css');
 @import url('./blocks/feedback.css');
 @import url('./blocks/footer.css');
