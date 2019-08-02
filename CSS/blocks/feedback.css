@@ -2,7 +2,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  margin-bottom: 38px;
+  margin-bottom: 48px;
 }
 
 .form__feedback {
@@ -10,7 +10,7 @@
   flex-flow: column wrap;
   background: #f5f5f5;
   width: 89%;
-  padding: 47px 10%;
+  padding: 42px 10%;
 }
 
 .form__feedback-title {
